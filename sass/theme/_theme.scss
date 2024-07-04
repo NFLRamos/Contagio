@@ -1,0 +1,554 @@
+/*Extra small devices */
+.footer_column {
+  flex-basis: 100%;
+}
+.size-thumbnail {
+  height: 250px;
+}
+
+.mosaico-work {
+  margin-top: 0px;
+}
+.mosaico-work-size1 {
+  height: 350px;
+}
+.mosaico-work-size2 {
+  height: 350px;
+}
+.phone-none {
+  display: none !important;
+}
+.mw-100 {
+  min-width: 100%;
+}
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.partners-box {
+  width: 50%;
+  height: 200px;
+}
+.img-slick-size {
+  height: 250px;
+}
+.size-work {
+  height: 250px;
+}
+.work-image-size-set {
+  height: 300px;
+}
+.service-display-image {
+  width: 100%;
+  height: 300px;
+  object-position: center;
+  object-fit: cover;
+}
+.blog-slick-image {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.footer_posicao {
+  width: 100%;
+  font-size: 21px;
+  border-top: 1px solid #cfcfcf;
+}
+/* Small devices (landscape phones, 576px and up) */
+
+@include media-breakpoint-up(sm) {
+  .footer_column {
+    flex-basis: 50% !important;
+  }
+  .phone-none {
+    display: none !important;
+  }
+  .mw-100 {
+    min-width: 100%;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img-slick-size {
+    height: 300px;
+  }
+  .work-image-size-set {
+    height: 400px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@include media-breakpoint-up(md) {
+  .footer_column {
+    flex-basis: 50% !important;
+  }
+  .size-thumbnail {
+    height: 450px;
+  }
+  .phone-none {
+    display: none !important;
+  }
+  .mw-100 {
+    min-width: 100%;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .partners-box {
+    width: 25%;
+    height: 200px;
+  }
+  .img-slick-size {
+    height: 250px;
+  }
+  .work-image-size-set {
+    height: 500px;
+  }
+  .service-display-image {
+    width: 100%;
+    height: 500px;
+    object-position: center;
+    object-fit: cover;
+  }
+  .blog-slick-image {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@include media-breakpoint-up(lg) {
+  .footer_column {
+    flex-basis: 20% !important;
+  }
+  .size-thumbnail {
+    height: 550px;
+  }
+  .mosaico-work {
+    margin-top: -74px !important;
+  }
+  .mosaico-work-size1 {
+    height: 373px;
+  }
+  .mosaico-work-size2 {
+    height: 283px;
+  }
+  .phone-none {
+    display: unset !important;
+  }
+  .mw-100 {
+    min-width: unset;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .partners-box {
+    width: 20%;
+    height: 200px;
+  }
+  .img-slick-size {
+    height: 250px;
+  }
+  .size-work {
+    height: 350px;
+  }
+  .work-image-size-set {
+    height: 600px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@include media-breakpoint-up(xl) {
+  .footer_column {
+    flex-basis: 20% !important;
+  }
+  .size-thumbnail {
+    height: 900px;
+  }
+  .phone-none {
+    display: unset !important;
+  }
+  .mw-100 {
+    min-width: unset;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .partners-box {
+    width: 20%;
+    height: 200px;
+  }
+  .img-slick-size {
+    height: 350px;
+  }
+  .work-image-size-set {
+    height: 700px;
+  }
+
+  .footer_posicao {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 21px;
+    border-top: 1px solid #cfcfcf;
+  }
+}
+
+.size-thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.logo_image {
+  max-width: 40%;
+  height: auto;
+}
+.nav-text-color-white .nav-link {
+  color: #eeeeee !important;
+}
+.nav-text-color-black .nav-link {
+  color: #000000 !important;
+}
+
+.wpcf7 {
+  max-width: none !important;
+}
+.btnenviar {
+  border: 1px solid blue !important;
+  background-color: blue !important;
+  color: white !important;
+}
+.inputaltura {
+  height: 75px !important;
+  border: 0.5px solid #cfcfcf !important;
+  background-color: #ffffff !important;
+  border-radius: 2px !important;
+}
+.inputmensagem {
+  resize: none;
+  height: 272px !important;
+  border: 0.5px solid #cfcfcf !important;
+  background-color: #ffffff !important;
+  border-radius: 2px !important;
+}
+.inputmensagem:focus {
+  box-shadow: unset !important;
+}
+.inputaltura:focus {
+  box-shadow: unset !important;
+}
+/*about us inicio*/
+.fw-400 {
+  font-weight: 400;
+}
+.letters-08 {
+  letter-spacing: -0.8px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fw-bolder {
+  font-weight: bolder;
+}
+
+/* team*/
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+.card-body {
+  padding: 1.25rem 0 1.25rem 0 !important;
+}
+
+/* partners */
+
+.partners-inner-box {
+  background-color: #ffffff;
+  height: 100%;
+}
+.partners-image {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+}
+
+/*--*/
+.tblue {
+  color: $cazul;
+}
+.tblue:hover {
+  color: $cazul;
+}
+.twhite {
+  color: #ffffff;
+}
+.tdirtywhite {
+  color: #f6f6f6;
+}
+.primary-img-back {
+  background-color: #fafafa;
+  margin-top: -13%;
+  position: relative;
+}
+.secondary-img-back {
+  background-color: #bac7a4;
+  color: #fff;
+  margin-top: -13%;
+  position: relative;
+}
+.letters-1 {
+  letter-spacing: -1px;
+}
+.premove {
+  padding: 0px !important;
+}
+.back-f7f7f7 {
+  background-color: #f7f7f7;
+}
+.tcolor-1d {
+  color: #1d1d1d;
+}
+.opacity-8 {
+  opacity: 0.8;
+}
+.fs-18 {
+  font-size: 18px;
+}
+#linkblogsingle {
+  width: fit-content;
+  height: 100%;
+  position: relative;
+}
+.bottomborderlink {
+  width: 0px;
+  border: 1px solid #ffffff;
+  transition-timing-function: linear;
+  transition: 0.5s;
+}
+#linkblogsingle:hover .bottomborderlink {
+  border: 1px solid $cazul;
+  width: 100%;
+}
+.conteudo {
+  position: relative;
+}
+.conteudo:hover {
+  transition: 5s ease;
+}
+
+.caixa_titulo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  transition: 0.5s ease;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.caixa_hover {
+  position: absolute;
+  bottom: -11%;
+  left: auto;
+  right: auto;
+  opacity: 0;
+  transition: 0.5s linear;
+}
+
+.conteudo:hover .caixa_hover {
+  display: block !important;
+  color: blanchedalmond;
+  transition: 0.5s linear;
+  opacity: 1;
+  bottom: 6%;
+}
+
+.caixa_hover_main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caixa_hover_main p {
+  position: absolute;
+  top: 40%;
+  transition: top 0.5s linear;
+}
+.conteudo:hover .caixa_hover_main p {
+  top: 12%;
+  transition: top 0.5s linear;
+}
+
+.conteudo img {
+  width: 100%;
+  height: auto;
+}
+.conteudo:hover .caixa_titulo {
+  background-color: $cazul;
+  opacity: 0.8;
+}
+
+.header_color_black {
+  background-color: #1d1d1d;
+  opacity: 0.9;
+}
+
+.header_color_white {
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+.navbar-button-black {
+  color: #1d1d1d;
+}
+.navbar-button-white {
+  color: #fafafa;
+}
+nav {
+  transition: background 0.5s;
+}
+.navbar-dark .navbar-toggler {
+  border: none !important;
+}
+.navbar-dark .navbar-toggler:focus {
+  outline: none !important;
+}
+.work-image-set {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.work-logo {
+  width: 200px;
+  height: 110px;
+}
+.work-logo-set {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+}
+.work-client-image {
+  width: 180px;
+  height: 180px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.service-slick-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+.service-slick-image {
+  height: 200px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.blog-thum-image {
+  height: 360px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dropdown-menu {
+  border: none !important;
+}
+
+.textwidget {
+  a {
+    color: #eeeeee;
+  }
+  a:hover {
+    text-decoration: none !important;
+  }
+}
+
+//404 page
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+.page-404 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito Sans";
+  button {
+    font-family:"Nunito Sans";
+  }
+  h1 {
+    font-size: 7.5em;
+    margin: 15px 0px;
+    font-weight: bold;
+  }
+  h2 {
+    font-weight: bold;
+  }
+
+  .btn {
+    z-index: 1;
+    overflow: hidden;
+    background: transparent;
+    position: relative;
+    padding: 8px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 2px;
+    transition: 0.2s ease;
+    font-weight: bold;
+    margin: 5px 0px;
+    color:#000000 !important;
+    &.green {
+      border: 4px solid #9e92ff;
+      color: var(--blue);
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0%;
+        height: 100%;
+        background: #9e92ff;
+        z-index: -1;
+        transition: 0.2s ease;
+      }
+      &:hover {
+        color: var(--white) !important;
+        background: #9e92ff;
+        transition: 0.2s ease;
+        &:before {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.understrap-read-more-link {
+  display: none !important;
+}
